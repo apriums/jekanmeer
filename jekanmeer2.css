@@ -288,7 +288,10 @@ li a:active {
 }
 
 form {
+    display: block;
+    justify-content: center;
     padding-bottom: 1em;
+
 }
 
 label {
