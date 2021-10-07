@@ -1,0 +1,322 @@
+/* ALGEMENE OPMAAK */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6dccb;
+}
+
+footer {
+    text-align: left;
+    text-indent: 50px;
+    background-color: white;
+    padding: 1em;
+    margin: 1em 2em 1em 2em;
+    border: 1px black solid;
+}
+
+.footer {
+    text-align: left !important;
+    padding: 2px;
+    margin: 2px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #d0a88b;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 0em;
+    margin: 0em;
+    color: #A76350;
+}
+
+a:hover {
+    color: white;
+    background-color: #e8cab0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #b7b39e;
+    font-weight: bold;
+}
+
+section {
+    background: #ffffff;
+    max-width: 800em;
+    padding: 1em;
+    margin: 1em 2em 1em 2em;
+    border: 1px black solid;
+}
+
+.productnaam {
+    text-align: left !important;
+    color: #A76350;
+    font-size: 1.5em;
+    padding: 1px 0em 0em 0em;
+}
+
+.productnaamook {
+    text-align: left !important;
+    color: #A76350;
+    font-size: 1.5em;
+    padding: 1em 2em 0em 0em;
+}
+
+.content {
+    display: block;
+    text-align: left;
+    padding: 0em 0em 0em 2em;
+}
+
+.meercontent {
+    display: block;
+    text-align: left;
+    padding: 2em 0em 0em 2em;
+}
+
+.em {
+    color: #d0a88b;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+/* NAVIGATIE OPMAAK */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 2em 0em 2em;
+    position: sticky;
+    position: -webkit-sticky;
+    /* voor Safari */
+    background-color: #ffffff;
+}
+
+ul li {
+    display: inline;
+    float: center;
+    padding: 1em;
+    border-right: 1px solid rgb(83, 83, 83);
+}
+
+.bronnen {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol {
+    display: block;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
+ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #d0a88b;
+    text-decoration: none;
+    border-radius: 3em;
+}
+
+li a:hover {
+    color: white;
+    background-color: #e8cab0;
+}
+
+li a:active {
+    color: white;
+    background-color: #b7b39e;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* INDEX */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0em 1em 0em 1em;
+}
+
+.hoofd {
+    text-align: center
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.content {
+    display: block;
+    text-align: left;
+}
+
+.links {
+    color:#b7b39e !important;
+    background-color: white !important;
+}
+
+.productlinkje {
+    list-style-type: none;
+    background-color: white;
+    color:#b7b39e;
+    padding-top: 1px;
+}
+
+/* algemene content opmaak */
+
+.center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    border: 2px black solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.knijproller {
+    border: 2px black solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+#eerste {
+    padding: 0em 2em 0em 2em;
+}
+
+.knop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 14px 16px;
+    width: 20em;
+    background-color: #d0a88b;
+    text-decoration: none;
+    border-radius: 3em;
+    margin-top: 2em;
+}
+
+.opties {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.onderling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 14px 16px;
+    width: 20em;
+    background-color: #d0a88b;
+    text-decoration: none;
+    border-radius: 3em;
+    margin: 2em 1em 1em 1em;
+
+}
+
+/* over ons */
+.overons {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.flexitem {
+    flex: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flextext {
+    text-align: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* contact pagina */
+.form {
+    display: block;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+form {
+    padding-bottom: 1em;
+}
+
+label {
+    color: black;
+    font-style: italic;
+}
+
+#zegiets {
+    padding-bottom: 5em;
+}
+
+#contact {
+    text-align: center;
+}
+
+input[type=text] {
+    margin: 8px 0;
+    width: 300px;
+    outline: none;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 2px solid #A76350;
+}
+
+input[type=button],
+input[type=submit] {
+    background-color: #d0a88b;
+    border: none;
+    border-radius: 3em;
+    padding: 14px 16px;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #e8cab0;
+    color: white;
+}
